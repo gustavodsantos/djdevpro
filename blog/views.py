@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def portao(request):
-    return HttpResponse('Você chegou ao portão da casa')
+    return render(request, 'blog/porta.html', {})
 
 
 def sala(request):
